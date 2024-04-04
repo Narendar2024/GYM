@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- <h1 class="bg-red-400">Hello</h1> -->
+    <!-- Navigation bar starts -->
+    <nav class="sticky top-0 z-10 bg-blue-950 shadow-md p-4">
+      <div class="container flex justify-between items-center mx-auto">
+        <h1 class="text-white font-bold text-lg md:text-xl lg:text-2xl">
+          STUD GYM
+        </h1>
+        <div class="flex gap-4 items-center">
+          <div class="flex items-center">
+            <div class="relative">
+              <button
+                class="absolute right-0 top-0 bg-transparent text-gray-600 p-3">
+                <img
+                  src="assets/search_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt="" />
+              </button>
+
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="What is your goal?"
+                class="border border-gray-300 pl-10 pr-4 py-2 rounded-md focus:outline-none text-sm lg:text-lg" />
+            </div>
+          </div>
+
+          <div class="hidden md:flex space-x-4">
+            <a href="" class="text-white hover:text-gray-300">Home</a>
+            <a href="" class="text-white hover:text-gray-300">Contact Us</a>
+            <a href="" class="text-white hover:text-gray-300">About</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="relative md:h-screen">
+      <video
+        src="assets/gymvideo.mp4"
+        loop
+        autoplay
+        muted
+        type="video/mp4"
+        class="object-cover object-center w-full h-full">
+        Your brower does'nt support video element
+      </video>
+
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+
+      <div
+        class="absolute inset-0 flex flex-col items-center justify-center text-white">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+          Achieve Your Fitness Goals
+        </h1>
+        <p class="text-base md:text-lg lg:text-xl mb-8">
+          Join our gym and tranform your body with our expert trainers.
+        </p>
+        <a
+          href=""
+          class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-700"
+          >Get Started</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
